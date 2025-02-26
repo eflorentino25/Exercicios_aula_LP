@@ -9,12 +9,12 @@ public class Lista_1_exercicio10 {
 			int lv_nota2 = lo_scann.nextInt();
 			float lv_media = ((float)( lv_nota1 + lv_nota2 ) / 2);
 			if (lv_media >= 6) {
-			System.out.println("Aluno aprovado");
-			System.out.printf("Média: %.2f", lv_media );
-		}else {
-		    System.out.println("Aluno reprovado ");
-			System.out.printf("Média: %.2f", lv_media );		
-		}
+				System.out.println("Aluno aprovado");
+				System.out.printf("Média: %.2f", lv_media );
+			}else {
+			    System.out.println("Aluno reprovado ");
+				System.out.printf("Média: %.2f", lv_media );		
+			}
 		
 		lo_scann.close();
 	}
